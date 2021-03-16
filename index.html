@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <!-- alert -->
+    <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="alert alert-custom alert-dismissible fade show" role="alert">
+            <h3 class="alert-heading">Alert heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.<a href="#" class="alert-link" target="blank">an example link</a> Consectetur, repudiandae?</p>
+            <hr>
+            <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label=close></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- alert -->
+  <!-- section -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <!-- Accordion -->
+          <div class="accordion" id="accordingex1">
+            <!-- accordion item 1 start -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headone">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cOne" aria-expanded="true" aria-controls="cOne">Accordion Item 1</button>
+              </h2>
+              <div id="cOne" class="accordion-collapse collapse show" ariea-lebelledby="headone" data-bs-parent="#accordingex1">
+                <div class="accordion-body">
+                  <strong>this is the first item's accordion body</strong>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Nihil cum numquam sed eius nemo aliquid obcaecati blanditiis minus accusantium reiciendis!
+                </div>
+              </div>
+            </div>
+            <!-- accordion item 1 end -->
+            <!-- accordion item 2 start -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cTwo" aria-expanded="false" aria-controls="cTwo">Accordion Item 2</button>
+              </h2>
+              <div id="cTwo" class="accordion-collapse collapse" ariea-lebelledby="headTwo" data-bs-parent="#accordingex1">
+                <div class="accordion-body">
+                  <strong>this is the first item's accordion body</strong>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Nihil cum numquam sed eius nemo aliquid obcaecati blanditiis minus accusantium reiciendis!
+                </div>
+              </div>
+            </div>
+            <!-- accordion item 2 end -->
+          </div>
+          <!-- Accordion -->
+        </div>
+        <div class="col-lg-6">
+          <!-- Accordion -->
+          <div class="accordion" id="accordionExample">
+            <!-- accordion item 1 start -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item 1</button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" ariea-lebelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>this is the first item's accordion body</strong>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Nihil cum numquam sed eius nemo aliquid obcaecati blanditiis minus accusantium reiciendis!
+                </div>
+              </div>
+            </div>
+            <!-- accordion item 1 end -->
+            <!-- accordion item 2 start -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Accordion Item 2</button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" ariea-lebelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>this is the first item's accordion body</strong>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Nihil cum numquam sed eius nemo aliquid obcaecati blanditiis minus accusantium reiciendis!
+                </div>
+              </div>
+            </div>
+            <!-- accordion item 2 end -->
+          </div>
+          <!-- Accordion -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section -->
+  <!-- badge -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="mt-2">
+          <h3>Lorem, ipsum, dolor sit amet consectetur adipisicing<span class="badge bg-info">Lorem</span></h3>
+          </div>
+          <button type="button" class="btn btn-info">Notifications <span class="badge bg-secondary">4</span></button>
+          <div class="mt-1">
+          <button type="button" class="btn btn-danger">Profile <span class="badge bg-info">3</span> <span class="visually-hidden">unread messages</span></button>
+          </div>
+          <div>
+            <span class="badge rounded-pill bg-dark">Lorem</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- badge -->
+  <!-- breadcrumb -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <!-- breadcrumb item -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="breadcrumb.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="breadcrumb2.html">Service</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+          <!-- breadcrumb item -->
+          <!-- breadcrumb item -->
+          <nav style="--bs-breadcrumb-divider: '>';"  aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="breadcrumb.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="breadcrumb2.html">Service</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+          <!-- breadcrumb item -->
+          <nav style="--bs-breadcrumb-divider: '';"  aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="breadcrumb.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="breadcrumb2.html">Service</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+          <!-- breadcrumb item -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- breadcrumb -->
+  <!-- buttopn -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- button item -->
+          <button type="button" class="btn btn-info">Subscribe</button>
+          <br>
+          <button type="button" class=" btn btn-outline-info">Subscribe</button>
+          <div class="mt-1">
+            <button type="button" class="btn btn-info btn-lg">Subscribe</button>
+          </div>
+          <div class="mt-1">
+            <button type="button" class="btn btn-info btn-sm" disabled>Subscribe</button>
+          </div>
+          <div class="d-grid gap2">
+            <button type="button" class="btn btn-info">Subscribe</button>
+          </div>
+          <!-- button item -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- buttopn -->
+  <!-- button group -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="btn-group">
+            <a href="#" class="btn btn-dark active" aria-current="page">Active Link</a>
+            <a href="#" class="btn btn-dark">Link</a>
+            <a href="#" class="btn btn-dark">Link</a>
+          </div>
+           <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-danger">Left</button>
+            <button type="button" class="btn btn-warning">Middle</button>
+            <button type="button" class="btn btn-success">Right</button>
+           </div>
+           <!-- close -->
+          <div class="btn-group" role="group" aria-label="Basic outlined example">
+           <button type="button" class="btn btn-outline-dark">Left</button>
+           <button type="button" class="btn btn-outline-dark">Middle</button>
+           <button type="button" class="btn btn-outline-dark">Right</button>
+          </div>
+          <!-- close -->
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-dark">1</button>
+              <button type="button" class="btn btn-dark">2</button>
+              <button type="button" class="btn btn-dark">3</button>
+              <button type="button" class="btn btn-dark">4</button>
+           </div>
+          </div>
+         <!-- close -->
+         <!-- close start-->
+         <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+           <button type="button" class="btn btn-dark">1</button>
+           <button type="button" class="btn btn-dark">2</button>
+
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            </ul>
+          </div>
+         </div>
+         <!-- close end -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- button group -->
+  <!-- list group -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="mt-4">
+          <ul>
+            <li class="list-group-item active" arie-current="true">An active item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
+          </div>
+          <!-- 2 -->
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">The current link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+          </div>
+          <!-- 2 -->
+          <!-- close -->
+          <div class="list-group">
+            <label class="list-group-item">
+            <input class="form-check-input me-1" type="checkbox" value="">First checkbox</label>
+            <label class="list-group-item">
+            <input class="form-check-input me-1" type="checkbox" value="">Second checkbox</label>
+            <label class="list-group-item">
+            <input class="form-check-input me-1" type="checkbox" value="">Third checkbox</label>
+            <label class="list-group-item">
+            <input class="form-check-input me-1" type="checkbox" value="">Fourth checkbox</label>
+            <label class="list-group-item"><input class="form-check-input me-1" type="checkbox" value="">Fifth checkbox</label>
+          </div>
+          <!-- close -->
+          <!-- new -->
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small>3 days ago</small>
+            </div>
+            <p class="mb-1">Some placeholder content in a paragraph.</p>
+            <small>And some small print.</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small class="text-muted">3 days ago</small>
+            </div>
+            <p class="mb-1">Some placeholder content in a paragraph.</p>
+            <small class="text-muted">And some muted small print.</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small class="text-muted">3 days ago</small>
+            </div>
+            <p class="mb-1">Some placeholder content in a paragraph.</p>
+            <small class="text-muted">And some muted small print.</small>
+            </a>
+          </div>
+          <!-- new -->
+          <!-- navs -->
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <!-- navs -->
+          <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          <!-- navbar -->
+  <!-- list group -->
+  <!-- pagination -->
+  <nav aria-label="page navigation Example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>
+  <!-- pagination -->
+  <!-- 2 -->
+  <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+  </nav>
+  <!-- 2 -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- progress bar -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <!-- 1 -->
+      <div class="progress mb-3">
+        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+      </div>
+      <!-- 1 -->
+      <!-- 2 -->
+      <div class="progress mb-3">
+        <div class="progress-bar " role="progressbar" style="width:25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+      <!-- 2 -->
+      <div class="progress mb-3">
+        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width:75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-dark " role="progressbar" style="width:100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- spinner -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- item -->
+        <div class="spinner-border text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <!-- item -->
+        <div class="d-flex align-items-center">
+           <strong>Loading...</strong>
+           <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+        </div>
+        <!-- 2 -->
+        <!-- spinner button -->
+        <button class="btn btn-primary" type="button" disabled>
+          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+          <span class="visually-hidden">Loading...</span>
+        </button>
+        <button class="btn btn-primary" type="button" disabled>
+          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>Loading...
+        </button>
+        <!-- spinner button -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- spinner -->
+<!-- dropdown button -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class=" dropdown mt-4">
+          <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownbtn" data-bs-toggle="dropdown" aria-expended="false">Dropdown Button</button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownbtn">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another Action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- dropdown button -->
+<!-- dropdown button -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="dropdown mt-4">
+          <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownbtn" data-bs-toggle="dropdown" aria-expended="false">dropdown Link</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownbutton">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another Action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- dropdown button -->
+<!-- collapse -->
+<!-- collapse -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
